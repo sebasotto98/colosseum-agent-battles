@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449528a577cbd26448f7ea91f826ce1d, type: 3}
+  m_Name: testRationalAgentVSRationalAgent
+  m_EditorClassIdentifier: 
+  requiresTraining: 1
+  trainingIterations: 100
+  teams:
+  - spawnerPos: {x: 0, y: 0, z: 0}
+    agentCharacteristics: {fileID: 11400000, guid: d9d2c3e815f54dc4bb059dbc25b0379a, type: 2}
+    teamName: UpperTeam
+    agentCount: 20
+    stats:
+      winLossRatio: 0.65903515
+      averageTimeToWin: 23.397022
+      averateAmountOfInflictedDamage: 50.649223
+      averageSurvivalTime: 25.81295
+      averageSufferedAgentLosses: 4.322976
+  - spawnerPos: {x: 0, y: 0, z: 0}
+    agentCharacteristics: {fileID: 11400000, guid: 844b7e6df8a8a204eb7492b9eb9eab4c, type: 2}
+    teamName: LowerTeam
+    agentCount: 5
+    stats:
+      winLossRatio: 0.62551105
+      averageTimeToWin: 25.826143
+      averateAmountOfInflictedDamage: 72.01553
+      averageSurvivalTime: 21.5393
+      averageSufferedAgentLosses: 3.698283

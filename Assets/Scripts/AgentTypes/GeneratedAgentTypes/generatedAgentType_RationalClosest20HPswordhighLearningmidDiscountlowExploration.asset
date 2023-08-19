@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831ad15677fd520429216f8e8a52fe0e, type: 3}
+  m_Name: RationalClosest20HPswordhighLearningmidDiscountlowExploration
+  m_EditorClassIdentifier:
+  agentType: 3
+  targetingStrat: 1
+  materialColor: { r: 0.009552526546727114, g: 0.22676550896317882, b: 0.6039829710193126, a: 0}
+  healthPoints: 20
+  weapon: {fileID: 11400000, guid: 7efc028e0998d47499f47ffa9e97b4e8, type: 2}
+  learningRate: 0.5
+  discountFactor: 0.9
+  explorationRate: 0.05

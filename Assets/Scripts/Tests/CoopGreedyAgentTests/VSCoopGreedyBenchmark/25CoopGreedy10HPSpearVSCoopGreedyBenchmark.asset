@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449528a577cbd26448f7ea91f826ce1d, type: 3}
+  m_Name: 25CoopGreedy10HPSpearVSCoopGreedyBenchmark
+  m_EditorClassIdentifier: 
+  requiresTraining: 0
+  trainingIterations: 0
+  teams:
+  - spawnerPos: {x: 0, y: 10, z: 0}
+    agentCharacteristics: {fileID: 11400000, guid: eae3278f32753f545b6811d0f3263160, type: 2}
+    teamName: 25CoopGreedyRandom10HPSpear
+    agentCount: 25
+    stats:
+      winLossRatio: 1
+      averageTimeToWin: 32.45
+      averateAmountOfInflictedDamage: 255.7
+      averageSurvivalTime: 56.585846
+      averageSufferedAgentLosses: 1.9
+  - spawnerPos: {x: 0, y: -10, z: 0}
+    agentCharacteristics: {fileID: 11400000, guid: f5bd88a35c229a14da7303fce50f9543, type: 2}
+    teamName: CoopGreedyBenchmark
+    agentCount: 25
+    stats:
+      winLossRatio: 0
+      averageTimeToWin: 0
+      averateAmountOfInflictedDamage: 102.25
+      averageSurvivalTime: 17.021008
+      averageSufferedAgentLosses: 25

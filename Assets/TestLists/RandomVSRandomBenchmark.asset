@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd81b119c4439a746b78ca68bee3c610, type: 3}
+  m_Name: RandomVSRandomBenchmark
+  m_EditorClassIdentifier: Assembly-CSharp::TestContainer
+  folderName: RandomVSRandomBenchmark
+  testSetups:
+  - {fileID: 11400000, guid: 75bdc0fa1ccde354688fc10f01325052, type: 2}
+  - {fileID: 11400000, guid: 256e992b731b62c4db804ef0954062cb, type: 2}
+  - {fileID: 11400000, guid: 903064566d58ee4408d9c1d9f5c0c0d2, type: 2}
+  - {fileID: 11400000, guid: f00f124bc6160f74687409c8e3f48499, type: 2}
+  - {fileID: 11400000, guid: eedde16113d51d643b91d9915c6bc5e6, type: 2}

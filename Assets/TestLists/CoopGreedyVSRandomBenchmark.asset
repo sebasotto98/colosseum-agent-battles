@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd81b119c4439a746b78ca68bee3c610, type: 3}
+  m_Name: CoopGreedyVSRandomBenchmark
+  m_EditorClassIdentifier: Assembly-CSharp::TestContainer
+  folderName: CoopGreedyVSRandomBenchmark
+  testSetups:
+  - {fileID: 11400000, guid: 08b0cdb6dc8131c47b1ead1dd7db78f9, type: 2}
+  - {fileID: 11400000, guid: 346f69fc9cd1c91469e63362f53d3a72, type: 2}
+  - {fileID: 11400000, guid: 2f0742980e58e304b8288da2bac242d4, type: 2}
+  - {fileID: 11400000, guid: f13d5110a975d1644bf4499a6f48a879, type: 2}
+  - {fileID: 11400000, guid: d825487b008ec684bb66099236eb6cea, type: 2}
+  - {fileID: 11400000, guid: 1f2bddede44dc574eabde0244735b289, type: 2}

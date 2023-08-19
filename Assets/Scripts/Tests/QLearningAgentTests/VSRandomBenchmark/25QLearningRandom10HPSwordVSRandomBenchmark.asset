@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449528a577cbd26448f7ea91f826ce1d, type: 3}
+  m_Name: 25QLearningRandom10HPSwordVSRandomBenchmark
+  m_EditorClassIdentifier: 
+  requiresTraining: 1
+  trainingIterations: 50
+  teams:
+  - spawnerPos: {x: 0, y: 10, z: 0}
+    agentCharacteristics: {fileID: 11400000, guid: 4ab6c4cf4db17d549b84ca60dc66a5d1, type: 2}
+    teamName: 25QLearningRandom10HPSword_Mid_High_Mid
+    agentCount: 25
+    stats:
+      winLossRatio: 1
+      averageTimeToWin: 60
+      averateAmountOfInflictedDamage: 172.35
+      averageSurvivalTime: 52.55837
+      averageSufferedAgentLosses: 6.25
+  - spawnerPos: {x: 0, y: -10, z: 0}
+    agentCharacteristics: {fileID: 11400000, guid: 7a2026bc0c903b049a69584fe856861f, type: 2}
+    teamName: RandomBenchmark
+    agentCount: 25
+    stats:
+      winLossRatio: 0
+      averageTimeToWin: 0
+      averateAmountOfInflictedDamage: 135.1
+      averageSurvivalTime: 37.128227
+      averageSufferedAgentLosses: 14.1

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd81b119c4439a746b78ca68bee3c610, type: 3}
+  m_Name: QLearningVSQLearningBenchmark
+  m_EditorClassIdentifier: Assembly-CSharp::TestContainer
+  folderName: QLearningVSQLearningBenchmark
+  testSetups:
+  - {fileID: 11400000, guid: 198c845f893db514e9661828f04b9ea0, type: 2}
+  - {fileID: 11400000, guid: 4fd26b74aa0908b4cb946d5acd596b49, type: 2}
+  - {fileID: 11400000, guid: 26c7c9f0911b7ac46924fc2edadfffe8, type: 2}
+  - {fileID: 11400000, guid: 5b577f2d082d44640b6d0c7c2125c748, type: 2}
+  - {fileID: 11400000, guid: 73b199755dba91a4d828b024ca636e48, type: 2}
+  - {fileID: 11400000, guid: e8dff8eea06a5f145a9280602a60cfa8, type: 2}

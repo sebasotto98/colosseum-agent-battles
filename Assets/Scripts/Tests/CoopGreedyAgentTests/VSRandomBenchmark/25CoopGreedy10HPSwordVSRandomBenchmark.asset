@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449528a577cbd26448f7ea91f826ce1d, type: 3}
+  m_Name: 25CoopGreedy10HPSwordVSRandomBenchmark
+  m_EditorClassIdentifier: 
+  requiresTraining: 0
+  trainingIterations: 0
+  teams:
+  - spawnerPos: {x: 0, y: 10, z: 0}
+    agentCharacteristics: {fileID: 11400000, guid: f5bd88a35c229a14da7303fce50f9543, type: 2}
+    teamName: 25CoopGreedyRandom10HPSword
+    agentCount: 25
+    stats:
+      winLossRatio: 1
+      averageTimeToWin: 43.55
+      averateAmountOfInflictedDamage: 254
+      averageSurvivalTime: 54.43289
+      averageSufferedAgentLosses: 3.9
+  - spawnerPos: {x: 0, y: -10, z: 0}
+    agentCharacteristics: {fileID: 11400000, guid: 7a2026bc0c903b049a69584fe856861f, type: 2}
+    teamName: Benchmark
+    agentCount: 25
+    stats:
+      winLossRatio: 0
+      averageTimeToWin: 0
+      averateAmountOfInflictedDamage: 137.2
+      averageSurvivalTime: 23.630632
+      averageSufferedAgentLosses: 25

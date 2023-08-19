@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831ad15677fd520429216f8e8a52fe0e, type: 3}
+  m_Name: SpearGreedy10HPCoopClosest
+  m_EditorClassIdentifier: 
+  agentType: 2
+  targetingStrat: 1
+  materialColor: {r: 0.75192845, g: 1, b: 0, a: 0}
+  healthPoints: 10
+  movementSpeedMultiplier: 1
+  weapon: {fileID: 11400000, guid: cd95fea6dea44ba4abe77b314fb038f1, type: 2}
+  actionUtilities:
+  - action: 0
+    utility: 0
+  - action: 1
+    utility: 0
+  - action: 2
+    utility: 0
+  - action: 3
+    utility: 0
+  - action: 4
+    utility: 0
+  - action: 5
+    utility: 0
+  aggresiveness: 0
